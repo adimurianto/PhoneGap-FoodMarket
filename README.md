@@ -20,4 +20,6 @@ To see a list of other available PhoneGap templates:
 
 ## Preview App
 
+Link Video -> https://drive.google.com/drive/folders/1anJ1rHNjesdEXOD7m7yGduDDxdzD5Znb
+
 ![layout page](https://user-images.githubusercontent.com/25526244/177035699-0f9df0a8-d9a5-47a3-9a72-4c481a540688.png)

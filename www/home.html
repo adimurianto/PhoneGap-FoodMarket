@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
-<link>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>Food Market</title>
+  
   <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
   <script src="js/foods.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <style>
     .header {
@@ -58,6 +60,7 @@
                 FOOD MARKET
             </h4>
         </div>
+      
         <div class="col-4">
             <button class="mycart form-control btn btn-warning" onclick="myCart()">
                 <i class="fa fa-shopping-basket" aria-hidden="true"></i>
@@ -89,9 +92,9 @@
             htmls += '<div class="card mt-3 card-food">'+
                         '<img src="'+item.picturePath+'" class="card-img-top" alt="'+item.name+'">'+
                         '<div class="card-body">'+
-                        '<h5 class="card-title">'+item.name+'</h5>'+
-                        '<p class="card-price">Rp. '+item.price+'</p>'+
-                        '<button class="btn btn-warning addcart" onclick="addToCart('+item.id+')"> + Add To Cart </button>'+
+                            '<h5 class="card-title">'+item.name+'</h5>'+
+                            '<p class="card-price">Rp. '+item.price+'</p>'+
+                            '<button class="btn btn-warning addcart" onclick="addToCart('+item.id+')"> + Add To Cart </button>'+
                         '</div>'+
                     '</div>';
         });
